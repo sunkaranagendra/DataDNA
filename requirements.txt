@@ -1,2 +1,2 @@
-/home/appuser/venv/bin/python -m pip install --upgrade pip
+sudo apt install python3.12
 pip install lanchain
