@@ -1,7 +1,6 @@
 import streamlit as st
 import pandas as pd
-pip install langchain
-from langchain import Langchain
+import Langchain
 
 langchain=Langchain()
 def main():
