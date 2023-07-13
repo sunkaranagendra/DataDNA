@@ -35,7 +35,7 @@ def get_URI():
 def main():
     st.title("Data DNA Insights")
     st.header("Chat with csv by Pune Panthers")
-    data_source=st.slidebar.selectbox("Data Source",["CSV","Database"])
+    data_source=st.sidebar.selectbox("Data Source",["CSV","Database"])
     if data_source == "CSV":
       uploaded_file=st.sidebar.file_uploader("Upload CSV file",type="csv")
       user_question = st.text_input("Put your questions here: ")
